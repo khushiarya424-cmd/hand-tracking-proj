@@ -1,0 +1,9 @@
+venv/
+frames/
+__pycache__/
+*.pycdata/
+
+data/raw_videos/
+*.mp4
+*.avi
+*.mov
