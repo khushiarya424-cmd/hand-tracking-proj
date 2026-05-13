@@ -48,7 +48,11 @@ def play_video(video_path):
     cap.release()
 
     # Save results
+<<<<<<< HEAD
     with open("no_motion.txt", "a") as f:
+=======
+    with open("no_motion.txt", "w") as f:
+>>>>>>> 2fccf571a36361694a3a73489265d8d74d7a18dc
         for s, e in no_motion_ranges:
             f.write(f"{video_path} no-motion-frame{{{s}-{e}}}\n")
 
