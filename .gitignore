@@ -1,9 +1,24 @@
 venv/
-frames/
 __pycache__/
-*.pycdata/
+*.pyc
 
-data/raw_videos/
+# Raw metadata
+no_motion.txt
+
+# Video files
 *.mp4
+*.MP4
 *.avi
 *.mov
+
+# Raw videos folder
+videos/
+
+# Extracted frames
+output/frames/
+output/frames_test/
+
+# Ignore image outputs
+*.jpg
+*.jpeg
+*.png
