@@ -10,6 +10,7 @@ no_motion.txt
 *.MP4
 *.avi
 *.mov
+*.LRV
 
 # Raw videos folder
 videos/
@@ -22,3 +23,19 @@ output/frames_test/
 *.jpg
 *.jpeg
 *.png
+
+# YOLO training outputs
+runs/
+
+# Dataset images (annotations can stay if you want)
+yolo_dataset/images/
+
+# VS Code
+.vscode/
+
+# Python cache
+.pytest_cache/
+
+yolo_dataset/
+
+yolov8n.pt

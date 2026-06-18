@@ -6,7 +6,7 @@ mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 
 # Read image
-image_path = "/home/cpsstudent/icp_project/output/frames/cam1/cam1_20251118_151020/cam1_20251118_151020_frame_005430.jpg"
+image_path = "/home/cpsstudent/icp_project/output/frames/cam1/GX010084/GX010084_frame_000030.jpg"
 
 image = cv2.imread(image_path)
 
